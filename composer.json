@@ -1,0 +1,36 @@
+{
+    "name": "justcommunication-ru/cache-bundle",
+    "description": "Cache bundle",
+    "type": "symfony-bundle",
+    "keywords": ["cache","memcache"],
+    "license": "proprietary",
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=8.1",
+        "justcommunication-ru/func-bundle": "^0.1",
+        "symfony/cache": "^6.3",
+        "symfony/config": ">=5.4 ^6.2",
+        "symfony/dependency-injection": ">=5.4 ^6.2",
+        "symfony/http-kernel": ">=5.4 ^6.2"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "git@github.com:JustCommunication-ru/func-bundle.git"
+        }
+    ],
+    "config": {
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "JustCommunication\\CacheBundle\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "JustCommunication\\CacheBundle\\Tests\\": "tests/"
+        }
+    }
+}
