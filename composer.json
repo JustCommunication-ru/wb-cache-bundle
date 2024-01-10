@@ -1,5 +1,5 @@
 {
-    "name": "justcommunication-ru/cache-bundle",
+    "name": "justcommunication-ru/wb-cache-bundle",
     "description": "Cache bundle",
     "type": "symfony-bundle",
     "keywords": ["cache","memcache"],
@@ -8,7 +8,7 @@
     "prefer-stable": true,
     "require": {
         "php": ">=8.1",
-        "justcommunication-ru/func-bundle": "^0.1",
+        "justcommunication-ru/wb-func-bundle": "^0.1",
         "symfony/cache": "^6.3",
         "symfony/config": ">=5.4 ^6.2",
         "symfony/dependency-injection": ">=5.4 ^6.2",
@@ -16,8 +16,8 @@
     },
     "repositories": [
         {
-            "type": "vcs",
-            "url":  "git@github.com:JustCommunication-ru/func-bundle.git"
+            "type": "git",
+            "url": "https://github.com/JustCommunication-ru/wb-func-bundle.git"
         }
     ],
     "config": {

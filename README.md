@@ -22,7 +22,7 @@ public function getEvents($force = false){
 ```
 
 ## Установка 
-`composer require justcommunication/cache-bundle`
+`composer require justcommunication/wb-cache-bundle`
 
 ## Подключение
 Прописать в /config/services.yaml:
